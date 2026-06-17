@@ -18,7 +18,7 @@
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a href="#" class="nav-logo">Haisheng Su</a>
+      <a href="index.html" class="nav-logo">Haisheng Su</a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -26,8 +26,9 @@
         <li><a href="#about">About</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#publications">Publications</a></li>
+        <li><a href="publications.html">Publications</a></li>
         <li><a href="#service">Service</a></li>
+        <li><a href="#contests">Contests</a></li>
         <li><a href="#awards">Awards</a></li>
         <li><a href="#experience">Experience</a></li>
       </ul>
@@ -44,9 +45,25 @@
             <div class="avatar-placeholder" aria-hidden="true">HS</div>
           </div>
           <div class="hero-meta">
-            <p class="hero-role"><strong>Founding Partner of <a href="https://manifoldai.cn/" target="_blank" rel="noopener">Manifold AI</a></strong> (2025–Present)</p>
-            <p class="hero-role hero-role-wrap"><strong>Senior Research Scientist / Manager of <a href="https://www.sensetime.com/" target="_blank" rel="noopener">SenseTime</a></strong><br>(2020–2025)</p>
-            <p class="hero-role"><strong>Ph.D. of <a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a></strong></p>
+            <p class="hero-role hero-role-primary"><strong>Founding Partner</strong></p>
+            <p class="hero-role hero-role-detail"><a href="https://manifoldai.cn/" target="_blank" rel="noopener">Manifold AI</a> · 2025–Present</p>
+            <p class="hero-role hero-role-focus">Embodied World Models &amp; Robotics</p>
+
+            <div class="hero-meta-divider" aria-hidden="true"></div>
+
+            <p class="hero-role hero-role-primary"><strong>Ph.D. in Computer Science</strong></p>
+            <p class="hero-role hero-role-detail"><a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a></p>
+            <p class="hero-role hero-role-detail">Advisor: <a href="https://thinklab.sjtu.edu.cn/" target="_blank" rel="noopener">Junchi Yan</a></p>
+
+            <div class="hero-meta-divider" aria-hidden="true"></div>
+
+            <p class="hero-role hero-role-label">Previously</p>
+            <p class="hero-role hero-role-primary hero-role-muted"><strong>Senior Research Manager</strong></p>
+            <p class="hero-role hero-role-detail hero-role-muted"><a href="https://www.sensetime.com/" target="_blank" rel="noopener">SenseTime</a> · 2020–2025</p>
+            <p class="hero-role hero-role-focus hero-role-muted">Autonomous Driving &amp; Video Understanding</p>
+
+            <div class="hero-meta-divider" aria-hidden="true"></div>
+
             <p class="hero-location">Shanghai, China</p>
             <p class="hero-email">
               <a href="mailto:suhaisheng527@gmail.com">suhaisheng527 [at] gmail.com</a>
@@ -54,11 +71,7 @@
             <div class="hero-links">
               <div class="hero-links-row">
                 <a href="https://scholar.google.com/citations?user=OFrMZh8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-                <a href="https://github.com/suhaisheng" target="_blank" rel="noopener">GitHub</a>
-              </div>
-              <div class="hero-links-row">
                 <a href="https://www.linkedin.com/in/suhaisheng/" target="_blank" rel="noopener">LinkedIn</a>
-                <a href="https://www.zhihu.com/people/sjtushs" target="_blank" rel="noopener">Zhihu</a>
               </div>
             </div>
           </div>
@@ -91,10 +104,10 @@
               Representative projects include:
             </p>
             <ul class="rep-project-list">
-              <li><span class="topic-red">Action Localization</span>: BSN (ECCV 2018), BSN++ (AAAI 2021), TCANet (CVPR 2021)</li>
-              <li><span class="topic-red">3D Perception</span>: FreqPDE &amp; GeoFormer (ICCV 2025), UniMamba (CVPR 2025)</li>
-              <li><span class="topic-red">End-to-End Autonomous Driving</span>: EgoFSD (ICRA 2026), DriveMamba (ICLR 2026), DriveMoE (CVPR 2026)</li>
-              <li><span class="topic-red">World Models</span>: WorldScape, WorldScape Policy</li>
+              <li><span class="topic-red">Behavior Understanding</span>: BSN (ECCV 2018), BSN++ (AAAI 2021), TCANet (CVPR 2021), MGFNet (TMM 2020)</li>
+              <li><span class="topic-red">Environmental Perception</span>: FreqPDE (ICCV 2025), GeoFormer (ICCV 2025), UniMamba (CVPR 2025)</li>
+              <li><span class="topic-red">End-to-End Decision Planning</span>: EgoFSD (ICRA 2026), DriveMamba (ICLR 2026), DriveMoE (CVPR 2026)</li>
+              <li><span class="topic-red">Embodied World Models</span>: WorldScape, WorldScape Policy</li>
               <li><span class="topic-red">Embodied Benchmarks</span>: <a href="https://github.com/suhaisheng/robosense" target="_blank" rel="noopener">RoboSense</a> (CVPR 2025), <a href="https://world-arena.ai/" target="_blank" rel="noopener">WorldArena</a> 1.0 &amp; 2.0</li>
             </ul>
             <p class="research-interests">
@@ -210,16 +223,16 @@
     <!-- Projects -->
     <section id="projects" class="section section-alt">
       <div class="container">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">Highlighted Projects</h2>
         <div class="card-grid">
           <article class="card">
             <div class="card-media">
-              <img class="card-thumb" src="assets/projects/worldscape-policy.png" alt="WorldScape Policy teaser figure" width="148" height="112" loading="lazy">
+              <img class="card-thumb" src="assets/projects/worldscape-policy.png" alt="WorldScape Policy teaser figure" width="320" height="262" loading="lazy">
             </div>
             <div class="card-body">
             <div class="card-header">
               <h3>WorldScape Policy</h3>
-              <span class="card-tag">Embodied AI · 2026</span>
+              <span class="card-tag">Embodied World Model · 2026</span>
             </div>
             <p>
               A generalist robotic planner finetuned from the WorldScape foundation world model.
@@ -234,7 +247,7 @@
           </article>
           <article class="card">
             <div class="card-media">
-              <img class="card-thumb" src="assets/projects/worldarena.png" alt="WorldArena teaser figure" width="148" height="112" loading="lazy">
+              <img class="card-thumb" src="assets/projects/worldarena.png" alt="WorldArena teaser figure" width="320" height="172" loading="lazy">
             </div>
             <div class="card-body">
             <div class="card-header">
@@ -253,7 +266,7 @@
           </article>
           <article class="card">
             <div class="card-media">
-              <img class="card-thumb" src="assets/projects/robosense.png" alt="RoboSense teaser figure" width="148" height="112" loading="lazy">
+              <img class="card-thumb" src="assets/projects/robosense.png" alt="RoboSense teaser figure" width="320" height="200" loading="lazy">
             </div>
             <div class="card-body">
             <div class="card-header">
@@ -270,32 +283,51 @@
             </div>
             </div>
           </article>
-          <article class="card">
+          <article class="card card--stretch-media">
             <div class="card-media">
-              <img class="card-thumb" src="assets/projects/unimamba.png" alt="UniMamba teaser figure" width="148" height="112" loading="lazy">
+              <img class="card-thumb" src="assets/projects/freqpde.png" alt="Multi-View 3D Perception teaser figure" width="1028" height="517" loading="lazy">
             </div>
             <div class="card-body">
             <div class="card-header">
-              <h3>UniMamba</h3>
-              <span class="card-tag">3D Perception · CVPR 2025</span>
+              <h3>Multi-View 3D Perception</h3>
+              <span class="card-tag">3D Perception · ICCV 2025</span>
             </div>
             <p>
-              Unified spatial-channel representation learning with group-efficient Mamba
-              for LiDAR-based 3D object detection.
+              FreqPDE — frequency-aware positional depth embedding for multi-view
+              3D object detection transformers.
             </p>
             <div class="card-links">
-              <a href="https://github.com/suhaisheng/UniMamba" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/abs/2503.12009" target="_blank" rel="noopener">Paper</a>
+              <a href="https://arxiv.org/abs/2510.15385" target="_blank" rel="noopener">FreqPDE</a>
             </div>
             </div>
           </article>
           <article class="card">
             <div class="card-media">
-              <img class="card-thumb" src="assets/projects/drivemamba-egofsd.png" alt="DriveMamba and EgoFSD teaser figure" width="148" height="112" loading="lazy">
+              <img class="card-thumb" src="assets/projects/unimamba.png" alt="LiDAR 3D Perception teaser figure" width="320" height="279" loading="lazy">
             </div>
             <div class="card-body">
             <div class="card-header">
-              <h3>DriveMamba / EgoFSD</h3>
+              <h3>LiDAR 3D Perception</h3>
+              <span class="card-tag">3D Perception · CVPR &amp; ICCV 2025</span>
+            </div>
+            <p>
+              UniMamba — unified spatial-channel representation learning with group-efficient Mamba
+              for LiDAR-based 3D object detection; GeoFormer — geometry point encoder with graph-based
+              Transformer for 3D object detection from point clouds.
+            </p>
+            <div class="card-links">
+              <a href="https://arxiv.org/abs/2503.12009" target="_blank" rel="noopener">UniMamba</a>
+              <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Jin_GeoFormer_Geometry_Point_Encoder_for_3D_Object_Detection_with_Graph-based_ICCV_2025_paper.pdf" target="_blank" rel="noopener">GeoFormer</a>
+            </div>
+            </div>
+          </article>
+          <article class="card card--stretch-media">
+            <div class="card-media">
+              <img class="card-thumb" src="assets/projects/drivemamba-fig2.png" alt="DriveMamba framework overview (Figure 2)" width="947" height="310" loading="lazy">
+            </div>
+            <div class="card-body">
+            <div class="card-header">
+              <h3>End-to-End Autonomous Driving</h3>
               <span class="card-tag">Autonomous Driving · 2026</span>
             </div>
             <p>
@@ -310,7 +342,7 @@
           </article>
           <article class="card">
             <div class="card-media">
-              <img class="card-thumb" src="assets/projects/bsn-family.png" alt="BSN Family teaser figure" width="148" height="112" loading="lazy">
+              <img class="card-thumb" src="assets/projects/bsn-family.png" alt="BSN Family teaser figure" width="320" height="187" loading="lazy">
             </div>
             <div class="card-body">
             <div class="card-header">
@@ -333,232 +365,6 @@
       </div>
     </section>
 
-    <!-- Publications -->
-    <section id="publications" class="section">
-      <div class="container">
-        <h2 class="section-title">Publications</h2>
-        <p class="section-subtitle">
-          30+ papers · 2,300+ citations · h-index 16 ·
-          <a href="https://scholar.google.com/citations?user=OFrMZh8AAAAJ" target="_blank" rel="noopener">Full list on Google Scholar →</a>
-        </p>
-
-        <div class="pub-group">
-          <h3 class="pub-year">2026</h3>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>WorldArena 2.0: Extending Embodied World Model Benchmarking on Modality, Functionality and Platform</strong>
-            </div>
-            <div class="pub-authors">
-              Yu Shang, Yinzhou Tang, Yiding Ma, Zhuohang Li, Lei Jin, Weikang Su, Xin Jin, Zhaolu Wang, Ziyou Wang, Xin Zhang, <span class="author-me">Haisheng Su</span>, Weizhen He, Wei Wu, Haoyi Duan, Gordon Wetzstein, Xihui Liu, Dhruv Shah, Zhaoxiang Zhang, Zhibo Chen, Jun Zhu, Yonghong Tian, Tat-Seng Chua, Wenwu Zhu, Chen Gao, Yong Li
-            </div>
-            <div class="pub-venue"><em>arXiv preprint arXiv:2605.17912</em>, 2026</div>
-            <div class="pub-links">
-              <a href="https://world-arena.ai/" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/pdf/2605.17912v1" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>WorldScape Policy: Generalizable Robotic Learning via a Foundation World Model</strong>
-            </div>
-            <div class="pub-authors">
-              <a href="https://manifoldai.cn/" target="_blank" rel="noopener">Manifold AI</a> Team, <span class="author-me">Haisheng Su</span>, et al. <span class="pub-authors-note-inline">(First author &amp; Project lead)</span>
-            </div>
-            <div class="pub-venue"><em>Technical Report</em>, 2026</div>
-            <div class="pub-links">
-              <a href="#">Report</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models</strong>
-            </div>
-            <div class="pub-authors">
-              Yu Shang, Zhuohang Li, Yiding Ma, Weikang Su, Xin Jin, Ziyou Wang, Lei Jin, Xin Zhang, Yinzhou Tang, <span class="author-me">Haisheng Su</span>, Chen Gao, Wei Wu, Xihui Liu, Dhruv Shah, Zhaoxiang Zhang, Zhibo Chen, Jun Zhu, Yonghong Tian, Tat-Seng Chua, Wenwu Zhu, Yong Li
-            </div>
-            <div class="pub-venue"><em>arXiv preprint arXiv:2602.08971</em>, 2026</div>
-            <div class="pub-links">
-              <a href="https://world-arena.ai/" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/abs/2602.08971" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>DriveMamba: Task-Centric Scalable State Space Model for Efficient End-to-End Autonomous Driving</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Wei Wu, Feixiang Song, Junjie Zhang, Zhenjie Yang, Junchi Yan
-            </div>
-            <div class="pub-venue"><em>International Conference on Learning Representations (ICLR)</em>, 2026</div>
-            <div class="pub-links">
-              <a href="https://arxiv.org/abs/2602.13301" target="_blank" rel="noopener">Paper</a>
-              <a href="assets/iclr2026_drivemamba_poster.pdf" target="_blank" rel="noopener">Poster</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>EgoFSD: Ego-Centric Fully Sparse Paradigm with Uncertainty Denoising and Iterative Refinement for Efficient End-to-End Self-Driving</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Wei Wu, Zhenjie Yang, I Guan
-            </div>
-            <div class="pub-venue"><em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026</div>
-            <div class="pub-links">
-              <a href="https://arxiv.org/abs/2409.09777" target="_blank" rel="noopener">Paper</a>
-              <a href="assets/icra2026_egofsd_poster.pdf" target="_blank" rel="noopener">Poster</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="pub-group">
-          <h3 class="pub-year">2025</h3>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>RoboSense: Large-scale Dataset and Benchmark for Egocentric Robot Perception and Navigation in Crowded and Unstructured Environments</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Feixiang Song, Cong Ma, Wei Wu, Junchi Yan
-            </div>
-            <div class="pub-venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2025</div>
-            <div class="pub-links">
-              <a href="https://github.com/suhaisheng/robosense" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/abs/2408.15503" target="_blank" rel="noopener">Paper</a>
-              <a href="assets/cvpr2025_robosense_poster.pdf" target="_blank" rel="noopener">Poster</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>UniMamba: Unified Spatial-Channel Representation Learning with Group-Efficient Mamba for LiDAR-based 3D Object Detection</strong>
-            </div>
-            <div class="pub-authors">
-              Xin Jin*, <span class="author-me">Haisheng Su</span>*†, Kai Liu, Cong Ma, Wei Wu, Fan Hui, Junchi Yan
-              <span class="pub-authors-note">(Co-first &amp; Corresponding author)</span>
-            </div>
-            <div class="pub-venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2025</div>
-            <div class="pub-links">
-              <a href="https://github.com/suhaisheng/UniMamba" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/abs/2503.12009" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>FreqPDE: Rethinking Positional Depth Embedding for Multi-View 3D Object Detection Transformers</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Junjie Zhang, Feixiang Song, Sanping Zhou, Wei Wu, Nanning Zheng, Junchi Yan
-            </div>
-            <div class="pub-venue"><em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2025</div>
-            <div class="pub-links">
-              <a href="#">Paper</a>
-              <a href="assets/iccv2025_freqpde_poster.pdf" target="_blank" rel="noopener">Poster</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>GeoFormer: Geometry Point Encoder for 3D Object Detection with Graph-based Transformer</strong>
-            </div>
-            <div class="pub-authors">
-              Xin Jin*, <span class="author-me">Haisheng Su</span>*†, Cong Ma*, Kai Liu, Wei Wu, Fei Hui, Junchi Yan
-              <span class="pub-authors-note">(Co-first &amp; Corresponding author)</span>
-            </div>
-            <div class="pub-venue"><em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2025</div>
-            <div class="pub-links">
-              <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Jin_GeoFormer_Geometry_Point_Encoder_for_3D_Object_Detection_with_Graph-based_ICCV_2025_paper.pdf" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="pub-group">
-          <h3 class="pub-year">2021</h3>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>Temporal Context Aggregation Network for Temporal Action Proposal Generation</strong>
-            </div>
-            <div class="pub-authors">
-              Zhiwu Qing*, <span class="author-me">Haisheng Su</span>*†, Weihao Gan, Dongliang Wang, Wei Wu, Xiang Wang, Yu Qiao, Junjie Yan, Changxin Gao, Nong Sang
-              <span class="pub-authors-note">(Co-first &amp; Corresponding author)</span>
-            </div>
-            <div class="pub-venue"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2021</div>
-            <div class="pub-links">
-              <a href="https://github.com/qinzhi-0110/Temporal-Context-Aggregation-Network-Pytorch" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/abs/2103.13141" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>BSN++: Complementary Boundary Regressor with Scale-Balanced Relation Modeling for Temporal Action Proposal Generation</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Weihao Gan, Wei Wu, Yu Qiao, Junjie Yan
-            </div>
-            <div class="pub-venue"><em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2021</div>
-            <div class="pub-links">
-              <a href="https://arxiv.org/abs/2009.07641" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>Transferable Knowledge-Based Multi-Granularity Aggregation Network for Temporal Action Localization: Submission to ActivityNet Challenge 2021</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Peiqin Zhuang, Yukun Li, Dongliang Wang, Weihao Gan, Wei Wu, Yu Qiao
-            </div>
-            <div class="pub-venue">
-              <em>CVPR 2021 HACS Challenge: Weakly Supervised Temporal Action Localization Track</em>, 2021
-              <span class="pub-award">🏆 Winner Solution</span>
-            </div>
-            <div class="pub-links">
-              <a href="http://hacs.csail.mit.edu/challenge/report_cvpr21/HaishengSu_hacs21_report.pdf" target="_blank" rel="noopener">Paper</a>
-              <a href="http://hacs.csail.mit.edu/challenge/" target="_blank" rel="noopener">Leaderboard</a>
-            </div>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>Transferable Knowledge based Multi-Granularity Fusion Network for Weakly Supervised Temporal Action Detection</strong>
-            </div>
-            <div class="pub-authors">
-              <span class="author-me">Haisheng Su</span>, Xiao Zhao, Tianwei Lin, Shuming Liu, Zhilan Hu
-            </div>
-            <div class="pub-venue"><em>IEEE Transactions on Multimedia (TMM)</em>, 2020</div>
-            <div class="pub-links">
-              <a href="#">Paper</a>
-            </div>
-          </article>
-        </div>
-
-        <div class="pub-group">
-          <h3 class="pub-year">2018</h3>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>Boundary Sensitive Network: Submission to ActivityNet Challenge 2018</strong>
-            </div>
-            <div class="pub-authors">
-              Tianwei Lin, <span class="author-me">Haisheng Su</span>, Xu Zhao
-            </div>
-            <div class="pub-venue">
-              <em>CVPR 2018 ActivityNet Challenge: Temporal Action Localization Track</em>, 2018
-              <span class="pub-award">🏆 Winner Solution</span>
-            </div>
-            <div class="pub-links">
-              <a href="#">Paper</a>
-            </div>
-          </article>
-          <article class="pub-item">
-            <div class="pub-title">
-              <strong>BSN: Boundary Sensitive Network for Temporal Action Proposal Generation</strong>
-            </div>
-            <div class="pub-authors">
-              Tianwei Lin, Xiao Zhao, <span class="author-me">Haisheng Su</span>, Chongjing Wang, Ming Yang
-            </div>
-            <div class="pub-venue"><em>European Conference on Computer Vision (ECCV)</em>, 2018</div>
-            <div class="pub-links">
-              <a href="https://github.com/wzmsltw/BSN-boundary-sensitive-network.pytorch" target="_blank" rel="noopener">Project</a>
-              <a href="https://arxiv.org/abs/1806.02964" target="_blank" rel="noopener">Paper</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <!-- Academic Service -->
     <section id="service" class="section section-alt">
       <div class="container">
@@ -567,9 +373,23 @@
         <div class="service-group">
           <h3 class="service-category">Conference Reviewer</h3>
           <ul class="service-list">
-            <li class="service-item">
-              <span class="service-year">2020 – Present</span>
-              <span class="service-content">CVPR, ICCV, ECCV, NeurIPS, ICLR, AAAI</span>
+            <li class="service-item service-item--full">
+              <span class="service-content">The Conference on Computer Vision and Pattern Recognition (CVPR)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">International Conference on Computer Vision (ICCV)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">European Conference on Computer Vision (ECCV)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">Conference on Neural Information Processing Systems (NeurIPS)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">International Conference on Machine Learning (ICML)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">The AAAI Conference on Artificial Intelligence (AAAI)</span>
             </li>
           </ul>
         </div>
@@ -577,9 +397,26 @@
         <div class="service-group">
           <h3 class="service-category">Journal Reviewer</h3>
           <ul class="service-list">
-            <li class="service-item">
-              <span class="service-year">2020 – Present</span>
-              <span class="service-content">IEEE TPAMI, IJCV, TMM, TIP, TAI, TCSVT, TNNLS</span>
+            <li class="service-item service-item--full">
+              <span class="service-content">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">International Journal of Computer Vision (IJCV)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">IEEE Transactions on Image Processing (TIP)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">IEEE Transactions on Multimedia (TMM)</span>
+            </li>
+            <li class="service-item service-item--full">
+              <span class="service-content">IEEE Transactions on Artificial Intelligence (TAI)</span>
             </li>
           </ul>
         </div>
@@ -601,109 +438,117 @@
     </section>
 
     <!-- Awards -->
-    <section id="awards" class="section">
+    <section class="section">
       <div class="container">
-        <h2 class="section-title">Awards &amp; Honors</h2>
-        <ul class="awards-list prose">
-          <li class="award-item">
-            <span class="award-year">2026</span>
-            <div class="award-content">
-              <strong>Outstanding Graduate of Shanghai (Ph.D.)</strong>
-              <p>Highest honor for graduates in Shanghai, Ministry of Education</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2022</span>
-            <div class="award-content">
-              <strong>Runner-up 🥈, UG2+ Challenge: Semi-supervised Action Recognition in the Dark Track</strong>
-              <p>IEEE CVPR UG2+ Challenge</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2021</span>
-            <div class="award-content">
-              <strong>Winner 🏆, HACS Challenge Weakly Supervised Temporal Action Localization</strong>
-              <p>IEEE CVPR HACS Challenge - Weakly Supervised Learning Track</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2021</span>
-            <div class="award-content">
-              <strong>Runner-up 🥈, HACS Challenge Temporal Action Localization</strong>
-              <p>IEEE CVPR HACS Challenge — Supervised Learning Track</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2020</span>
-            <div class="award-content">
-              <strong>Outstanding Graduate of Shanghai (M.S.)</strong>
-              <p>Highest honor for graduates in Shanghai, Ministry of Education</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2020</span>
-            <div class="award-content">
-              <strong>Second Prize 🥈, National Post-Graduate Mathematical Contest in Modeling (NPMCM)</strong>
-              <p>Huawei Cup NPMCM</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2018</span>
-            <div class="award-content">
-              <strong>Winner 🏆, ActivityNet Challenge Temporal Action Localization Track</strong>
-              <p>IEEE CVPR ActivityNet Challenge</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2018</span>
-            <div class="award-content">
-              <strong>Runner-up 🥈, ActivityNet Challenge Temporal Action Proposal Track</strong>
-              <p>IEEE CVPR ActivityNet Challenge</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2018</span>
-            <div class="award-content">
-              <strong>National Scholarship for Postgraduate</strong>
-              <p>Highest honor for postgraduates in China, Ministry of Education</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2018</span>
-            <div class="award-content">
-              <strong>Excellent Graduate Student Scholarship</strong>
-              <p>Shanghai Jiao Tong University — Top 10% in Automation Department</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2018</span>
-            <div class="award-content">
-              <strong>Third Prize 🥉, Baidu Star Developer Competition</strong>
-              <p>Rank 5/1371</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2016</span>
-            <div class="award-content">
-              <strong>Third Prize 🥉, RoboMaster Competition</strong>
-              <p>National College Student Robot Competition</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2015</span>
-            <div class="award-content">
-              <strong>National Scholarship</strong>
-              <p>Highest honor for undergraduates in China, top 1% nationwide</p>
-            </div>
-          </li>
-          <li class="award-item">
-            <span class="award-year">2014</span>
-            <div class="award-content">
-              <strong>Third Prize 🥉, National English Competition for College Students (NECCS)</strong>
-              <p>Organizing Committee of National English Competitions for College Students</p>
-            </div>
-          </li>
-        </ul>
+        <div class="awards-group" id="contests">
+          <h2 class="section-title">Contests</h2>
+          <ul class="awards-list prose">
+            <li class="award-item">
+              <span class="award-year">2022</span>
+              <div class="award-content">
+                <strong>Runner-up 🥈, UG2+ Challenge: Semi-supervised Action Recognition in the Dark Track</strong>
+                <p>IEEE CVPR UG2+ Challenge</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2021</span>
+              <div class="award-content">
+                <strong>Winner 🏆, HACS Challenge Weakly Supervised Temporal Action Localization</strong>
+                <p>IEEE CVPR HACS Challenge - Weakly Supervised Learning Track</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2021</span>
+              <div class="award-content">
+                <strong>Runner-up 🥈, HACS Challenge Temporal Action Localization</strong>
+                <p>IEEE CVPR HACS Challenge — Supervised Learning Track</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2020</span>
+              <div class="award-content">
+                <strong>Second Prize 🥈, National Post-Graduate Mathematical Contest in Modeling (NPMCM)</strong>
+                <p>Huawei Cup NPMCM</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2018</span>
+              <div class="award-content">
+                <strong>Winner 🏆, ActivityNet Challenge Temporal Action Localization Track</strong>
+                <p>IEEE CVPR ActivityNet Challenge</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2018</span>
+              <div class="award-content">
+                <strong>Runner-up 🥈, ActivityNet Challenge Temporal Action Proposal Track</strong>
+                <p>IEEE CVPR ActivityNet Challenge</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2018</span>
+              <div class="award-content">
+                <strong>Third Prize 🥉, Baidu Star Developer Competition</strong>
+                <p>Rank 5/1371</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2016</span>
+              <div class="award-content">
+                <strong>Third Prize 🥉, RoboMaster Competition</strong>
+                <p>National College Student Robot Competition</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2014</span>
+              <div class="award-content">
+                <strong>Third Prize 🥉, National English Competition for College Students (NECCS)</strong>
+                <p>Organizing Committee of National English Competitions for College Students</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="awards-group" id="awards">
+          <h2 class="section-title">Awards &amp; Honors</h2>
+          <ul class="awards-list prose">
+            <li class="award-item">
+              <span class="award-year">2026</span>
+              <div class="award-content">
+                <strong>Outstanding Graduate of Shanghai (Ph.D.)</strong>
+                <p>Highest honor for graduates in Shanghai, Ministry of Education</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2020</span>
+              <div class="award-content">
+                <strong>Outstanding Graduate of Shanghai (M.S.)</strong>
+                <p>Highest honor for graduates in Shanghai, Ministry of Education</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2018</span>
+              <div class="award-content">
+                <strong>National Scholarship for Postgraduate</strong>
+                <p>Highest honor for undergraduates in China - Top 1% nationwide</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2018</span>
+              <div class="award-content">
+                <strong>Excellent Graduate Student Scholarship</strong>
+                <p>Shanghai Jiao Tong University — Top 10% in Automation Department</p>
+              </div>
+            </li>
+            <li class="award-item">
+              <span class="award-year">2015</span>
+              <div class="award-content">
+                <strong>National Scholarship</strong>
+                <p>Highest honor for undergraduates in China - Top 1% nationwide</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
