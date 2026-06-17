@@ -231,6 +231,21 @@ img {
   font-style: italic;
 }
 
+.bio-highlight {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  text-align: left !important;
+}
+
+.bio-highlight strong {
+  color: #c41e3a;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .topic-red {
   color: #c41e3a;
   font-weight: 600;
