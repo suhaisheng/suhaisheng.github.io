@@ -416,27 +416,46 @@ img {
 
 .hero-links {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-  font-size: 0.8rem;
-  margin: 2px 0 0;
+  flex-direction: row;
+  gap: 10px;
+  margin: 4px 0 0;
   width: 100%;
 }
 
-.hero-links-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 10px;
+.hero-social-link {
+  display: inline-flex;
   align-items: center;
-}
-
-.hero-links a {
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  color: var(--color-text-muted);
+  background: var(--color-surface);
   text-decoration: none;
-  white-space: nowrap;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
 }
 
-.hero-links a:hover {
-  text-decoration: underline;
+.hero-social-link:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  text-decoration: none;
+}
+
+.hero-social-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.hero-social-icon--scholar {
+  width: 20px;
+  height: 20px;
+}
+
+.hero-social-link--scholar:hover {
+  color: #4285f4;
+  border-color: #4285f4;
 }
 
 .hero-bio {
@@ -1120,13 +1139,8 @@ img.card-thumb {
   }
 
   .hero-links {
-    align-items: center;
-    gap: 8px;
-  }
-
-  .hero-links-row {
     justify-content: center;
-    gap: 12px 20px;
+    gap: 12px;
   }
 
   .research-interests {
