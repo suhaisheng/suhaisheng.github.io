@@ -526,6 +526,15 @@ img {
   font-size: 0.9rem;
 }
 
+.publications-intro {
+  max-width: 720px;
+  margin: 0;
+}
+
+.publications-intro a {
+  font-weight: 600;
+}
+
 .section-note {
   margin-top: 16px;
   font-size: 0.88rem;
