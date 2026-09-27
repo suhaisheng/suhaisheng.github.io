@@ -497,6 +497,21 @@ img {
   font-weight: 400;
 }
 
+.scholar-live-badge {
+  display: inline-flex;
+  margin-left: 6px;
+  vertical-align: -4px;
+}
+
+.scholar-live-badge img {
+  display: block;
+  height: 21px;
+}
+
+.scholar-live-badge:hover {
+  text-decoration: none;
+}
+
 .rep-project-list {
   margin: 0 0 12px;
   padding-left: 1.4em;
