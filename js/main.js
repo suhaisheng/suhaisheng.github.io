@@ -24,8 +24,44 @@ function initThemeToggle() {
   });
 }
 
+function initNewsToggle() {
+  const list = document.getElementById('news-list');
+  const toggle = document.getElementById('news-toggle');
+  if (!list || !toggle) return;
+
+  const visibleCount = 10;
+  const items = Array.from(list.querySelectorAll(':scope > .news-item'));
+  if (items.length <= visibleCount) return;
+
+  const label = toggle.querySelector('.news-toggle-label');
+  const icon = toggle.querySelector('.news-toggle-icon');
+
+  const setExpanded = (expanded) => {
+    items.forEach((item, index) => {
+      item.hidden = !expanded && index >= visibleCount;
+    });
+
+    toggle.setAttribute('aria-expanded', String(expanded));
+    label.textContent = expanded ? 'Show less' : 'Earlier News';
+    icon.textContent = expanded ? '↑' : '↓';
+  };
+
+  toggle.hidden = false;
+  setExpanded(false);
+
+  toggle.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    setExpanded(!expanded);
+
+    if (expanded) {
+      document.getElementById('news')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initThemeToggle();
+  initNewsToggle();
 
   const toggle = document.querySelector('.nav-toggle');
   const navLinks = document.querySelector('.nav-links');

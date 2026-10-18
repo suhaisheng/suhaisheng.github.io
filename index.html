@@ -9,7 +9,7 @@
   <meta property="og:image" content="assets/avatar.jpg">
   <title>Haisheng Su | Homepage</title>
   <link rel="icon" href="assets/avatar.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="css/style.css?v=6">
+  <link rel="stylesheet" href="css/style.css?v=7">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -153,6 +153,7 @@
               <li><span class="topic-red">Environmental Perception</span>: FreqPDE (ICCV 2025), GeoFormer (ICCV 2025), UniMamba (CVPR 2025)</li>
               <li><span class="topic-red">End-to-End Decision Planning</span>: EgoFSD (ICRA 2026), DriveMamba (ICLR 2026), DriveMoE (CVPR 2026)</li>
               <li><span class="topic-red">Embodied World Models</span>: <a href="https://worldscape-moe.com/" target="_blank" rel="noopener">WorldScape</a> (NeurIPS 2026), <a href="https://manifoldai-research.github.io/WorldScape-Policy/" target="_blank" rel="noopener">WorldScape Policy</a></li>
+              <li><span class="topic-red">Recursive Self-Improving Agent</span>: <a href="https://r2si.worldscape.io/" target="_blank" rel="noopener">WorldScape-R²SI</a></li>
               <li><span class="topic-red">Embodied Benchmarks</span>: <a href="https://github.com/suhaisheng/robosense" target="_blank" rel="noopener">RoboSense</a> (CVPR 2025), <a href="https://world-arena.ai/" target="_blank" rel="noopener">WorldArena</a> 1.0 (AI Open 2026) &amp; 2.0, <a href="https://handedit.github.io/" target="_blank" rel="noopener">HandEdit</a> (NeurIPS 2026)</li>
             </ul>
             <p class="research-interests">
@@ -175,12 +176,26 @@
     <section id="news" class="section">
       <div class="container">
         <h2 class="section-title">News</h2>
-        <ul class="news-list">
+        <ul class="news-list" id="news-list">
           <li class="news-item news-new">
             <span class="news-date">Oct 2026</span>
             <span class="news-content">
-              🎉 Recognized as a <strong>Top Reviewer</strong> at <strong>NeurIPS 2026</strong>.
+              📢 We released <strong><a href="https://r2si.worldscape.io/" target="_blank" rel="noopener">WorldScape-R²SI</a></strong>,
+              a self-improving agentic robotics system powered by a recursive agentic harness,
+              achieving #1 🏆 on the <strong><a href="https://robodojo-benchmark.com/leaderboard#news" target="_blank" rel="noopener">RoboDojo Agent</a></strong> leaderboard! 🎉
               <span class="badge">NEW</span>
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Oct 2026</span>
+            <span class="news-content">
+              🎉 Recognized as a <strong>Top Reviewer</strong> at <strong>NeurIPS 2026</strong>.
+            </span>
+          </li>
+          <li class="news-item">
+            <span class="news-date">Oct 2026</span>
+            <span class="news-content">
+              🎉 Recognized as an <strong>Outstanding Reviewer</strong> at <strong>CVPR 2026</strong>.
             </span>
           </li>
           <li class="news-item">
@@ -316,6 +331,10 @@
             </span>
           </li>
         </ul>
+        <button class="news-toggle" id="news-toggle" type="button" aria-controls="news-list" aria-expanded="false" hidden>
+          <span class="news-toggle-label">Earlier News</span>
+          <span class="news-toggle-icon" aria-hidden="true">↓</span>
+        </button>
       </div>
     </section>
 
@@ -324,6 +343,26 @@
       <div class="container">
         <h2 class="section-title">Highlighted Projects</h2>
         <div class="card-grid">
+          <article class="card">
+            <div class="card-media">
+              <img class="card-thumb" src="assets/projects/worldscape-r2si.jpg" alt="WorldScape-R²SI framework overview" width="1600" height="900" loading="lazy">
+            </div>
+            <div class="card-body">
+            <div class="card-header">
+              <h3>WorldScape-R²SI</h3>
+              <span class="card-tag">Recursive Self-Improving Agent · 2026</span>
+            </div>
+            <p>
+              A two-layer robot agent whose inner Robot Agent acts through Skills while its outer
+              Recursion Agent improves those Skills and trains the reactive model, achieving #1 overall
+              on the RoboDojo Agent leaderboard.
+            </p>
+            <div class="card-links">
+              <a href="https://r2si.worldscape.io/" target="_blank" rel="noopener">Project</a>
+              <a href="https://r2si.worldscape.io/report.pdf" target="_blank" rel="noopener">Paper</a>
+            </div>
+            </div>
+          </article>
           <article class="card">
             <div class="card-media">
               <img class="card-thumb" src="assets/projects/worldscape-policy-2-overview.png" alt="WorldScape Policy 2.0 overview" width="664" height="375" loading="lazy">
@@ -536,7 +575,7 @@
           <h3 class="service-category">Conference Reviewer</h3>
           <ul class="service-list">
             <li class="service-item service-item--full">
-              <span class="service-content">The Conference on Computer Vision and Pattern Recognition (CVPR)</span>
+              <span class="service-content">The Conference on Computer Vision and Pattern Recognition (CVPR) — <strong>Outstanding Reviewer, 2026</strong></span>
             </li>
             <li class="service-item service-item--full">
               <span class="service-content">International Conference on Computer Vision (ICCV)</span>
@@ -831,6 +870,6 @@
 
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script src="js/stats.js?v=3"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=2"></script>
 </body>
 </html>

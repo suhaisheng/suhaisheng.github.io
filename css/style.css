@@ -651,6 +651,47 @@ img {
   margin: -4px -8px;
 }
 
+.news-item[hidden] {
+  display: none;
+}
+
+.news-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 0;
+  border: 0;
+  color: var(--color-accent);
+  background: transparent;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.news-toggle[hidden] {
+  display: none;
+}
+
+.news-toggle:hover,
+.news-toggle:focus-visible {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.news-toggle:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.news-toggle-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
 /* ===== Project Cards ===== */
 .card-grid {
   display: grid;
